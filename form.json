@@ -1,0 +1,100 @@
+{
+  "title": "Contact Form",
+  "subtitle": "Get in touch with us",
+  "submitLabel": "Submit",
+  "fields": [
+    {
+      "id": "first-name",
+      "label": "First Name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "last-name",
+      "label": "Last Name",
+      "type": "alpha-full",
+      "required": true
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "phone",
+      "label": "Phone Number",
+      "type": "split",
+      "required": false,
+      "pattern": "NNN NNN NNNN"
+    },
+    {
+      "id": "company",
+      "label": "Company Name",
+      "type": "free-full",
+      "required": false
+    },
+    {
+      "id": "message",
+      "label": "Message",
+      "type": "free-full",
+      "required": true
+    }
+  ],
+  "optionSets": {
+    "provinces": [
+      {
+        "value": "AB",
+        "label": "AB – Alberta"
+      },
+      {
+        "value": "BC",
+        "label": "BC – British Columbia"
+      },
+      {
+        "value": "MB",
+        "label": "MB – Manitoba"
+      },
+      {
+        "value": "NB",
+        "label": "NB – New Brunswick"
+      },
+      {
+        "value": "NL",
+        "label": "NL – Newfoundland & Labrador"
+      },
+      {
+        "value": "NS",
+        "label": "NS – Nova Scotia"
+      },
+      {
+        "value": "NT",
+        "label": "NT – Northwest Territories"
+      },
+      {
+        "value": "NU",
+        "label": "NU – Nunavut"
+      },
+      {
+        "value": "ON",
+        "label": "ON – Ontario"
+      },
+      {
+        "value": "PE",
+        "label": "PE – Prince Edward Island"
+      },
+      {
+        "value": "QC",
+        "label": "QC – Québec"
+      },
+      {
+        "value": "SK",
+        "label": "SK – Saskatchewan"
+      },
+      {
+        "value": "YT",
+        "label": "YT – Yukon"
+      }
+    ]
+  }
+}
