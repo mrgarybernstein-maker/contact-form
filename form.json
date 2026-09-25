@@ -1,8 +1,18 @@
 {
-  "title": "Contact Form",
-  "subtitle": "Get in touch with us",
+  "title": "VENTURA OWNERS ALERT",
+  "subtitle": "Ventura Owner-to-Owner Communication",
   "submitLabel": "Submit",
   "fields": [
+    {
+      "id": "-muhd5kju",
+      "label": " ",
+      "type": "text-display",
+      "required": false,
+      "textContent": "Hello Ventura owner. I'm tired of trying to convince our Board to allow us to communicate with each other, particularly to advertise weeks that we might want to rent or sell. If you would like join the group that receives this information in a completely private manner, then just fill out the form below.",
+      "textSize": "large",
+      "textAlign": "left",
+      "textStyle": "normal"
+    },
     {
       "id": "first-name",
       "label": "First Name",
@@ -22,23 +32,14 @@
       "required": true
     },
     {
-      "id": "phone",
-      "label": "Phone Number",
-      "type": "split",
+      "id": "-muhdbfla",
+      "label": " ",
+      "type": "text-display",
       "required": false,
-      "pattern": "NNN NNN NNNN"
-    },
-    {
-      "id": "company",
-      "label": "Company Name",
-      "type": "free-full",
-      "required": false
-    },
-    {
-      "id": "message",
-      "label": "Message",
-      "type": "free-full",
-      "required": true
+      "textContent": "If you have any questions about this feel free to contact me at Gary.Bernstein@McGill.CA",
+      "textSize": "large",
+      "textAlign": "center",
+      "textStyle": "normal"
     }
   ],
   "optionSets": {
